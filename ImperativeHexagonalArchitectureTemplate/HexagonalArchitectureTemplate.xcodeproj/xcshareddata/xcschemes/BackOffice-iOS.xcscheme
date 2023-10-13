@@ -38,6 +38,17 @@
                ReferencedContainer = "container:HexagonalArchitectureTemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D6E9B3C72AD95D250033E57D"
+               BuildableName = "BackOffice-iOSTests.xctest"
+               BlueprintName = "BackOffice-iOSTests"
+               ReferencedContainer = "container:HexagonalArchitectureTemplate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -7,15 +7,51 @@
 
 import Foundation
 
-public protocol DomainEvent {
-    var aggregateId: String { get }
-    var eventId: String { get }
-    var occurredOn: String { get }
-    init(aggregatedId: String, eventId: String, occurredOn: String)
-    func getTopic() -> String
-    func toPrimitives() -> [String: Codable]
-    func fromPrimitives(aggregatedId: String,
+open class DomainEvent {
+    private let aggregateId: String
+    private let eventId: String
+    private let occurredOn: String
+    
+    public init(aggregatedId: String) {
+        self.aggregateId = aggregatedId
+        self.eventId = UUID().uuidString
+        self.occurredOn = Date().description
+    }
+    
+    public init(aggregatedId: String, eventId: String, occurredOn: String) {
+        self.aggregateId = aggregatedId
+        self.eventId = eventId
+        self.occurredOn = occurredOn
+    }
+    
+    open func getTopic() -> String {
+        ""
+    }
+    
+    open func toPrimitives() -> [String: Codable] {
+        [
+            "aggregateId": aggregateId,
+            "eventId": eventId,
+            "occurredOn": occurredOn
+        ]
+    }
+    
+    open func fromPrimitives(aggregatedId: String,
                         body: [String: Codable],
                         eventId: String,
-                        occurredOn: String) -> DomainEvent
+                        occurredOn: String) -> DomainEvent {
+        DomainEvent(aggregatedId: aggregatedId, eventId: eventId, occurredOn: occurredOn)
+    }
+    
+    open func getAggregateId() -> String {
+        aggregateId
+    }
+    
+    open func getEventId() -> String {
+        eventId
+    }
+    
+    open func getOccurredOn() -> String {
+        occurredOn
+    }
 }

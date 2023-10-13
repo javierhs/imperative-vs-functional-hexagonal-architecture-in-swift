@@ -31,18 +31,27 @@
 		D6BBD8962AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBD8952AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift */; };
 		D6D340392AC24EC200A87A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340382AC24EC200A87A73 /* AppDelegate.swift */; };
 		D6D3403B2AC24EC200A87A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */; };
-		D6D3403D2AC24EC200A87A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403C2AC24EC200A87A73 /* ViewController.swift */; };
+		D6D3403D2AC24EC200A87A73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3403C2AC24EC200A87A73 /* HomeViewController.swift */; };
 		D6D340402AC24EC200A87A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D3403E2AC24EC200A87A73 /* Main.storyboard */; };
 		D6D340422AC24EC300A87A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D340412AC24EC300A87A73 /* Assets.xcassets */; };
 		D6D340452AC24EC300A87A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D340432AC24EC300A87A73 /* LaunchScreen.storyboard */; };
-		D6D3409B2AC256A700A87A73 /* HexagonalArchitectureTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340592AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests.swift */; };
-		D6D3409C2AC256AB00A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3405B2AC24EC400A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift */; };
 		D6D340A82AC25DD500A87A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340A72AC25DD500A87A73 /* AppDelegate.swift */; };
 		D6D340AA2AC25DD500A87A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340A92AC25DD500A87A73 /* ViewController.swift */; };
 		D6D340AC2AC25DD600A87A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D340AB2AC25DD600A87A73 /* Assets.xcassets */; };
 		D6D340AF2AC25DD600A87A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D340AD2AC25DD600A87A73 /* Main.storyboard */; };
 		D6D340BB2AC25DE600A87A73 /* BackOffice_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340BA2AC25DE600A87A73 /* BackOffice_macOSUITests.swift */; };
 		D6D340BD2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D340BC2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift */; };
+		D6E9B3B42AD8B50B0033E57D /* RegisterUserViewControllerUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3B32AD8B50B0033E57D /* RegisterUserViewControllerUITest.swift */; };
+		D6E9B3B62AD8B58C0033E57D /* RegisterUser.feature in Resources */ = {isa = PBXBuildFile; fileRef = D6E9B3B52AD8B58C0033E57D /* RegisterUser.feature */; };
+		D6E9B3C02AD95B290033E57D /* HomeTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3BF2AD95B290033E57D /* HomeTableViewDataSource.swift */; };
+		D6E9B3C32AD95CEE0033E57D /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3C22AD95CEE0033E57D /* HomeCoordinator.swift */; };
+		D6E9B3D52AD95E220033E57D /* NavigationControllerHomeCoordinatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3D42AD95E220033E57D /* NavigationControllerHomeCoordinatorTest.swift */; };
+		D6E9B3D72AD95E710033E57D /* NavigationControllerHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3D62AD95E710033E57D /* NavigationControllerHomeCoordinator.swift */; };
+		D6E9B3D82AD95E710033E57D /* NavigationControllerHomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3D62AD95E710033E57D /* NavigationControllerHomeCoordinator.swift */; };
+		D6E9B3DC2AD9600F0033E57D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3DB2AD9600F0033E57D /* HomePresenter.swift */; };
+		D6E9B3DD2AD9600F0033E57D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3DB2AD9600F0033E57D /* HomePresenter.swift */; };
+		D6E9B3DF2AD960980033E57D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3DE2AD960980033E57D /* HomeView.swift */; };
+		D6E9B3E02AD960980033E57D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E9B3DE2AD960980033E57D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +90,13 @@
 			remoteGlobalIDString = D6D340A42AC25DD500A87A73;
 			remoteInfo = "BackOffice-macOS";
 		};
+		D6E9B3CC2AD95D250033E57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D3402D2AC24EC200A87A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D340342AC24EC200A87A73;
+			remoteInfo = "BackOffice-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -116,14 +132,12 @@
 		D6D340352AC24EC200A87A73 /* BackOffice-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340382AC24EC200A87A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6D3403C2AC24EC200A87A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6D3403C2AC24EC200A87A73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D6D3403F2AC24EC200A87A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6D340412AC24EC300A87A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D340442AC24EC300A87A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D340462AC24EC300A87A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D340552AC24EC400A87A73 /* BackOffice-iOS-UI-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-iOS-UI-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6D340592AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonalArchitectureTemplateUITests.swift; sourceTree = "<group>"; };
-		D6D3405B2AC24EC400A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonalArchitectureTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6D340A52AC25DD500A87A73 /* BackOffice-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackOffice-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340A72AC25DD500A87A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D340A92AC25DD500A87A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +147,15 @@
 		D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D340BA2AC25DE600A87A73 /* BackOffice_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_macOSUITests.swift; sourceTree = "<group>"; };
 		D6D340BC2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOffice_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6E9B3B32AD8B50B0033E57D /* RegisterUserViewControllerUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewControllerUITest.swift; sourceTree = "<group>"; };
+		D6E9B3B52AD8B58C0033E57D /* RegisterUser.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = RegisterUser.feature; sourceTree = "<group>"; };
+		D6E9B3BF2AD95B290033E57D /* HomeTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewDataSource.swift; sourceTree = "<group>"; };
+		D6E9B3C22AD95CEE0033E57D /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		D6E9B3C82AD95D250033E57D /* BackOffice-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackOffice-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E9B3D42AD95E220033E57D /* NavigationControllerHomeCoordinatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerHomeCoordinatorTest.swift; sourceTree = "<group>"; };
+		D6E9B3D62AD95E710033E57D /* NavigationControllerHomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerHomeCoordinator.swift; sourceTree = "<group>"; };
+		D6E9B3DB2AD9600F0033E57D /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D6E9B3DE2AD960980033E57D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +230,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6E9B3C52AD95D250033E57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -248,6 +278,7 @@
 				D659B2822AC2C03B0082E34B /* BackOffice-tvOSUITests.xctest */,
 				D6BBD87F2AC2C150007800D8 /* BackOffice-watchOS Watch App.app */,
 				D6BBD8912AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests.xctest */,
+				D6E9B3C82AD95D250033E57D /* BackOffice-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -460,9 +491,10 @@
 		D6D340812AC250FE00A87A73 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D6E9B3BC2AD959B10033E57D /* Home */,
+				D6E9B3AF2AD8B3EA0033E57D /* User */,
 				D6D340382AC24EC200A87A73 /* AppDelegate.swift */,
 				D6D3403A2AC24EC200A87A73 /* SceneDelegate.swift */,
-				D6D3403C2AC24EC200A87A73 /* ViewController.swift */,
 				D6D3403E2AC24EC200A87A73 /* Main.storyboard */,
 				D6D340412AC24EC300A87A73 /* Assets.xcassets */,
 				D6D340432AC24EC300A87A73 /* LaunchScreen.storyboard */,
@@ -551,8 +583,8 @@
 		D6D340892AC2513A00A87A73 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D6D340592AC24EC400A87A73 /* HexagonalArchitectureTemplateUITests.swift */,
-				D6D3405B2AC24EC400A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift */,
+				D6E9B3D12AD95D730033E57D /* Home */,
+				D6E9B3B02AD8B40E0033E57D /* User */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -591,6 +623,147 @@
 				D6BBD8952AC2C1D3007800D8 /* BackOffice_watchOS_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = watchOS;
+			sourceTree = "<group>";
+		};
+		D6E9B3AF2AD8B3EA0033E57D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B72AD957E00033E57D /* Infrastructure */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D6E9B3B02AD8B40E0033E57D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B12AD8B4190033E57D /* Infrastructure */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D6E9B3B12AD8B4190033E57D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B22AD8B4B60033E57D /* ViewControllers */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D6E9B3B22AD8B4B60033E57D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B32AD8B50B0033E57D /* RegisterUserViewControllerUITest.swift */,
+				D6E9B3B52AD8B58C0033E57D /* RegisterUser.feature */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6E9B3B72AD957E00033E57D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B82AD957EB0033E57D /* ViewControllers */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D6E9B3B82AD957EB0033E57D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3B92AD957F30033E57D /* register */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6E9B3B92AD957F30033E57D /* register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		D6E9B3BC2AD959B10033E57D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3D92AD95FE60033E57D /* Application */,
+				D6E9B3BD2AD959BE0033E57D /* Infrastructure */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6E9B3BD2AD959BE0033E57D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3C12AD95CD30033E57D /* Coordinator */,
+				D6E9B3BE2AD959C40033E57D /* ViewControllers */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D6E9B3BE2AD959C40033E57D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3403C2AC24EC200A87A73 /* HomeViewController.swift */,
+				D6E9B3BF2AD95B290033E57D /* HomeTableViewDataSource.swift */,
+				D6E9B3DE2AD960980033E57D /* HomeView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6E9B3C12AD95CD30033E57D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3D62AD95E710033E57D /* NavigationControllerHomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D6E9B3D12AD95D730033E57D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3D22AD95DEF0033E57D /* Infrastructure */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D6E9B3D22AD95DEF0033E57D /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3D32AD95DFA0033E57D /* Coordinator */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		D6E9B3D32AD95DFA0033E57D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3D42AD95E220033E57D /* NavigationControllerHomeCoordinatorTest.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D6E9B3D92AD95FE60033E57D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3E62AD967730033E57D /* Coordinator */,
+				D6E9B3DA2AD95FFE0033E57D /* Presenter */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D6E9B3DA2AD95FFE0033E57D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3DB2AD9600F0033E57D /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D6E9B3E62AD967730033E57D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D6E9B3C22AD95CEE0033E57D /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -775,6 +948,24 @@
 			productReference = D6D340B82AC25DE600A87A73 /* BackOffice-macOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D6E9B3C72AD95D250033E57D /* BackOffice-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E9B3CE2AD95D250033E57D /* Build configuration list for PBXNativeTarget "BackOffice-iOSTests" */;
+			buildPhases = (
+				D6E9B3C42AD95D250033E57D /* Sources */,
+				D6E9B3C52AD95D250033E57D /* Frameworks */,
+				D6E9B3C62AD95D250033E57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E9B3CD2AD95D250033E57D /* PBXTargetDependency */,
+			);
+			name = "BackOffice-iOSTests";
+			productName = "BackOffice-iOSTests";
+			productReference = D6E9B3C82AD95D250033E57D /* BackOffice-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -820,6 +1011,11 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = D6D340A42AC25DD500A87A73;
 					};
+					D6E9B3C72AD95D250033E57D = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+						TestTargetID = D6D340342AC24EC200A87A73;
+					};
 				};
 			};
 			buildConfigurationList = D6D340302AC24EC200A87A73 /* Build configuration list for PBXProject "HexagonalArchitectureTemplate" */;
@@ -845,6 +1041,7 @@
 				D659B2812AC2C03B0082E34B /* BackOffice-tvOSUITests */,
 				D6BBD87E2AC2C150007800D8 /* BackOffice-watchOS Watch App */,
 				D6BBD8902AC2C1D3007800D8 /* BackOffice-watchOS Watch AppUITests */,
+				D6E9B3C72AD95D250033E57D /* BackOffice-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -914,6 +1111,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E9B3B62AD8B58C0033E57D /* RegisterUser.feature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,6 +1125,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D6D340B62AC25DE600A87A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E9B3C62AD95D250033E57D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -995,7 +1200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D3403D2AC24EC200A87A73 /* ViewController.swift in Sources */,
+				D6E9B3DC2AD9600F0033E57D /* HomePresenter.swift in Sources */,
+				D6E9B3C02AD95B290033E57D /* HomeTableViewDataSource.swift in Sources */,
+				D6D3403D2AC24EC200A87A73 /* HomeViewController.swift in Sources */,
+				D6E9B3C32AD95CEE0033E57D /* HomeCoordinator.swift in Sources */,
+				D6E9B3D72AD95E710033E57D /* NavigationControllerHomeCoordinator.swift in Sources */,
+				D6E9B3DF2AD960980033E57D /* HomeView.swift in Sources */,
 				D6D340392AC24EC200A87A73 /* AppDelegate.swift in Sources */,
 				D6D3403B2AC24EC200A87A73 /* SceneDelegate.swift in Sources */,
 			);
@@ -1005,8 +1215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D3409B2AC256A700A87A73 /* HexagonalArchitectureTemplateUITests.swift in Sources */,
-				D6D3409C2AC256AB00A87A73 /* HexagonalArchitectureTemplateUITestsLaunchTests.swift in Sources */,
+				D6E9B3B42AD8B50B0033E57D /* RegisterUserViewControllerUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,6 +1234,17 @@
 			files = (
 				D6D340BB2AC25DE600A87A73 /* BackOffice_macOSUITests.swift in Sources */,
 				D6D340BD2AC25DE600A87A73 /* BackOffice_macOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E9B3C42AD95D250033E57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E9B3DD2AD9600F0033E57D /* HomePresenter.swift in Sources */,
+				D6E9B3E02AD960980033E57D /* HomeView.swift in Sources */,
+				D6E9B3D52AD95E220033E57D /* NavigationControllerHomeCoordinatorTest.swift in Sources */,
+				D6E9B3D82AD95E710033E57D /* NavigationControllerHomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,6 +1279,11 @@
 			isa = PBXTargetDependency;
 			target = D6D340A42AC25DD500A87A73 /* BackOffice-macOS */;
 			targetProxy = D6D340BE2AC25DE600A87A73 /* PBXContainerItemProxy */;
+		};
+		D6E9B3CD2AD95D250033E57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D340342AC24EC200A87A73 /* BackOffice-iOS */;
+			targetProxy = D6E9B3CC2AD95D250033E57D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1726,6 +1951,55 @@
 			};
 			name = Release;
 		};
+		D6E9B3CF2AD95D250033E57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackOffice-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackOffice-iOS";
+			};
+			name = Debug;
+		};
+		D6E9B3D02AD95D250033E57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = APSMCMUQ5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "default.BackOffice-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackOffice-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BackOffice-iOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1824,6 +2098,15 @@
 			buildConfigurations = (
 				D6D340C12AC25DE600A87A73 /* Debug */,
 				D6D340C22AC25DE600A87A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E9B3CE2AD95D250033E57D /* Build configuration list for PBXNativeTarget "BackOffice-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E9B3CF2AD95D250033E57D /* Debug */,
+				D6E9B3D02AD95D250033E57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

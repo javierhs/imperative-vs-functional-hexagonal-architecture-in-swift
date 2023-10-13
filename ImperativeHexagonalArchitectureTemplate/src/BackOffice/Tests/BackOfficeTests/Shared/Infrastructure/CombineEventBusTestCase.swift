@@ -56,27 +56,16 @@ final class CombineEventBusTestCase: XCTestCase {
     }
     
     private class MyCombineEvent: DomainEvent {
-        var aggregateId: String
-        
-        var eventId: String
-        
-        var occurredOn: String
-        
-        required init(aggregatedId: String, eventId: String, occurredOn: String) {
-            self.aggregateId = aggregatedId
-            self.eventId = eventId
-            self.occurredOn = occurredOn
+
+        override init(aggregatedId: String, eventId: String, occurredOn: String) {
+            super.init(aggregatedId: aggregatedId, eventId: eventId, occurredOn: occurredOn)
         }
         
-        func getTopic() -> String {
+        override func getTopic() -> String {
             "MyCombineEvent"
         }
         
-        func toPrimitives() -> [String : Codable] {
-            [:]
-        }
-        
-        func fromPrimitives(aggregatedId: String, body: [String : Codable], eventId: String, occurredOn: String) -> DomainEvent {
+        override func fromPrimitives(aggregatedId: String, body: [String : Codable], eventId: String, occurredOn: String) -> DomainEvent {
             MyCombineEvent(aggregatedId: aggregatedId, eventId: eventId, occurredOn: occurredOn)
         }
     }

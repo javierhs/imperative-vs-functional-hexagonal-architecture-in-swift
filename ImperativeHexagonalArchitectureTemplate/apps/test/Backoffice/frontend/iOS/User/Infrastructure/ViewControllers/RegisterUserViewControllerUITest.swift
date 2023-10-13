@@ -1,13 +1,13 @@
 //
-//  HexagonalArchitectureTemplateUITests.swift
-//  HexagonalArchitectureTemplateUITests
+//  RegisterUserViewController.swift
+//  BackOffice-iOS-UI-Tests
 //
-//  Created by Javier Hernandez Sansalvador on 26/9/23.
+//  Created by Javier Hernandez Sansalvador on 13/10/23.
 //
 
 import XCTest
 
-final class HexagonalArchitectureTemplateUITests: XCTestCase {
+final class RegisterUserViewController: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,20 +22,19 @@ final class HexagonalArchitectureTemplateUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testUserCanRegisterWithAnUnidentifiedEmaill() throws {
+        // Administrator opens our app
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        //he chooses user management option
+    
+        //he chooses to register a new user
+        
+        //he enters valid user data details
+        
+        //he tries to create the user
+        
+        //he is notified by a confirmation created user message
     }
 }
